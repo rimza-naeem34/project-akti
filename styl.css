@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 90px;
+    background-color: #f5480e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 48px;
+    width: 120px;
+
+}
+.logo{
+    background-image: url("daraz-logo.png");
+    background-size: cover;
+    height: 48px;
+    width: 100%;
+
+}
+.border{
+    border: 2px solid transparent ;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/**box2*/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    
+}
+/**box3*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 746px;
+    height: 38px;
+    border-radius: 9px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border: none;
+    
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.2rem;
+    color: #f5480e;
+}
+.nav-signin{
+    display: flex;
+}
