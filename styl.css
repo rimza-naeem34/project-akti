@@ -77,6 +77,228 @@
     font-size: 1.2rem;
     color: #f5480e;
 }
-.nav-signin{
+/**box4 */
+.nav-signup{
+    display: flex;
+    color: white;
+}
+.user-icon{
+    font-size: 1.2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.nav-login{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+    color: white;
+}
+.nav-line{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: white
+
+}
+.nav-login:hover{
+    
+}
+
+/**box5 */
+.nav-langicon{
     display: flex;
 }
+.nav-lang{
+    display: flex;
+    margin-left: 3px;
+}
+.nav-lang:hover{
+
+}
+/**box6*/
+.nav-cart{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+/**line2 box1*/
+.pannel{
+    
+    height: 18px;
+    width: 100%;
+    
+    background-color:#f5480e ;
+    display: flex;
+    margin-right: 3px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+}
+.pannel-all{
+    margin-right: 5px;
+}
+
+.pannel.ops {
+    display: inline;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.savemore-logo{
+    margin-left: 40%;
+    background-image: url(daraz-logo.png)
+    background-size: 20px;
+;
+    
+
+}
+/**main section*/
+.main-section{
+    background-image: url(toys\ main.jpg);
+    background-size: cover;
+    height: 344px;
+    display: flex;
+}
+.headline{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5480e;
+    color: white;
+    height: 30px;
+    align-items: center;
+}
+.price{
+    display: flex;
+}
+.pricelogo{
+    margin-right: 3px;
+    color: gray;
+    font-size: 1.4rem;
+}
+.payement{
+    display: flex;
+    align-items: center;
+}
+.paylogo{
+    margin-right: 3px;
+    color: aqua;
+    font-size: 1.4rem;
+}
+.delivery{
+    display: flex;
+    align-items: center;
+}
+.deliverlogo{
+    margin-right: 3px;
+    color: rgb(147, 90, 9);
+    font-size: 1.4rem;
+}
+.return{
+    display: flex;
+    align-items: center;
+}
+.returnlogo{
+    margin-right: 3px;
+    font-size: 1.4rem;
+    color: green;
+}
+.authentic{
+    display: flex;
+    align-items: center;
+
+}
+.authlogo{
+    margin-right: 3px;
+    font-size: 1.4rem;
+    color: blueviolet;
+}
+.verified{
+    display: flex;
+    align-items: center;
+}
+.darazlogo{
+    margin-right: 3px;
+    font-size: 1.4rem;
+    color: pink;
+}
+.menu-icon {
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    background-color:#f5480e;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+/* Styling for the dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 40px; /* Positioning the dropdown below the icon */
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+}
+
+/* Show the dropdown menu when hovering over the menu icon */
+.menu-icon:hover .dropdown-menu {
+    display: block;
+    background-color: white;
+    font-size: 1rem;
+    color: #f5480e;
+    height: 300px;
+    width: 300px;
+    margin-top: %;
+}
+
+/* Basic styling for list items */
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+</style>
+<title>Menu Dropdown</title>
+</head>
+<body>
+<div class="menu-icon">
+<!-- The dropdown menu -->
+<div class="dropdown-menu">
+    <ul>
+        <li>Option 1</li>
+        <li>Option 2</li>
+        <li>Option 3</li>
+        <li>Option 4</li>
+    </ul>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
