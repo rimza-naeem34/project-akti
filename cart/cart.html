@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Daraz</title>
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -13,7 +12,8 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="../styl.css" />
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./">
+
 </head>
 <body>
     <header>
@@ -39,35 +39,22 @@
           </div>
           <div class="user-icon">
             <i class="fa-regular fa-user"></i>
-            <div><p class="nav-login">Login</p></div>
+            <div><a href="./login/login.html"> <div class="nav-login"> Login</div></a> </div>
             <div>
               <p class="nav-line">|</p>
             </div>
           </div>
-          <div class="nav-signup">
-            <p>Sign Up</p>
-          </div>
+          <div><a href="./signup/signup.html"> <div class="nav-signup"> Signup</div></a> </div>
+          
           <div class="nav-langicon">
             <i class="fa-solid fa-globe"></i>
             <div class="nav-lang">ENG</div>
           </div>
-          <div class="nav-cart">
-            <i class="fa-solid fa-cart-shopping"></i>
-          </div>
+          <div><a href="./cart/cart.html"><div class="nav-cart"><i class="fa-solid fa-cart-shopping"></i></div></a></div>
+            
+          
         </div>
     </header>
-    <div class="login-container">
-      <form class="login-form">
-          <h2>Login</h2>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-          
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required>
-          
-          <button type="submit">Login</button>
-      </form>
-  </div>
     
 </body>
 </html>

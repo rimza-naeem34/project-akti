@@ -81,6 +81,7 @@
 .nav-signup{
     display: flex;
     color: white;
+    background-color: #f5480e;
 }
 .user-icon{
     font-size: 1.2rem;
@@ -94,6 +95,8 @@
     align-items: center;
     margin-left: 3px;
     color: white;
+
+    background-color: #f5480e;
 }
 .nav-line{
     margin-left: 10px;
@@ -122,6 +125,8 @@
     font-size: 1.8rem;
     display: flex;
     align-items: center;
+    color: white !important;
+    text-decoration: none !important;
 }
 /**line2 box1*/
 .pannel{
