@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daraz</title>
@@ -12,70 +12,86 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="styl.css" />
-  </head>
-  <body>
-    <header>
-      <div class="navbar">
-        <div class="nav-logo border">
-          <div ><a href="index.html"> <div class="logo"></div> </a></div>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="nav-logo border">
+        <div ><a href="../index.html"> <div class="logo"></div> </a></div>
+      </div>
+      
+      <div class="nav-address border">
+        <p class="add-first">Deliver to</p>
+        <div class="add-icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="add-sec">Pakistan</p>
         </div>
-        <div class="nav-address border">
-          <p class="add-first">Deliver to</p>
-          <div class="add-icon">
-            <i class="fa-solid fa-location-dot"></i>
-            <p class="add-sec">Pakistan</p>
-          </div>
+      </div>
+      <div class="nav-search">
+        <select class="search-select">
+          <option>All</option>
+        </select>
+        <input placeholder="Search in Googl" class="search-input" />
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
         </div>
-        <div class="nav-search">
-          <select class="search-select">
-            <option>All</option>
-          </select>
-          <input placeholder="Search in Daraz" class="search-input" />
-          <div class="search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
+      </div>
+      <div class="user-icon">
+        <i class="fa-regular fa-user"></i>
+        <div>
+          <a href="./login/login.html" class="nav-login" > 
+               <div > 
+                       Login
+                 </div>
+          </a> </div>
+        <div>
+          <p class="nav-line">|</p>
         </div>
-        <div class="user-icon">
-          <i class="fa-regular fa-user"></i>
-          <div><a href="./login/login.html"> <div class="nav-login"> Login</div></a> </div>
+      </div>
+      <div>
+        <a href="./signup/signup.html" class="nav-signup">
           <div>
-            <p class="nav-line">|</p>
+            SignUp
           </div>
-        </div>
-        <div><a href="./signup/signup.html"> <div class="nav-signup"> Signup</div></a> </div>
-        
-        <div class="nav-langicon">
-          <i class="fa-solid fa-globe"></i>
-          <div class="nav-lang">ENG</div>
-        </div>
-        <div><a href="./cart/cart.html"><div class="nav-cart"><i class="fa-solid fa-cart-shopping"></i></div></a></div>
-          
-        
+        </a>
       </div>
-      <div class="pannel">
-        <div class="pannel-all">
-          <div class="menu-icon"><i class="fa-solid fa-bars"></i>
-          </i>
         
-          <div class="dropdown-menu">
+      
+      <div class="nav-langicon">
+        <i class="fa-solid fa-globe"></i>
+        <div class="nav-lang">ENG</div>
+      </div>
+      <div>
+        <a href="./cart/cart.html" class="nav-cart"><div>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div></a>
+      </div>
+    </div>
+    <div class="pannel">
+      <div class="pannel-all">
+        <div class="menu-icon" id="menuIcon"><i class="fas fa-bars"></i></div>
+        <!--<div class="dropdown-menu" id="dropdownMenu">
             <ul>
-                <li>Option 1</li>
-                <li>Option 2</li>
-                <li>Option 3</li>
-                <li>Option 4</li>
+                <li>Women Wear</li>
+                <li>Men's Wear</li>
+                <li>Kid's Wear</li>
+                <li>House Utensils</li>
             </ul>
-        </div></div>
-          All
-        </div>
-
+        </div>-->
+        All
+    </div>
+      
+      
         <div class="pannel.ops">Become a Seller</div>
-        <div>Daraz Affiliate Program</div>
+        <div>Googl Affiliate Program</div>
         <div>Help & Support</div>
-        <div>Daraz Logistic Partner</div>
+        <div>Googl Logistic Partner</div>
         <div class="savemore-logo">
-          <div class="savemore">Save More on Daraz</div>
+          <div class="savemore">Save More on Googl</div>
         </div>
       </div>
+      <script src="index.js"></script>
+
     </header>
     <div class="main-section">
       <div class="main-msg"></div>
@@ -110,10 +126,72 @@
       </div>
       <div class="verified">
         <div class="darazlogo">
-          <i class="fa-solid fa-d"></i>
+          <i class="fa-solid fa-g"></i>
         </div>
-        Daraz Verified
+        Googl Verified
       </div>
+    </div>
+    <div class="shop-section">
+      
+      <div class="box3 box">
+        <div class="box-content">
+          <h2>Health & Personal Care</h2>
+        <div class="box1-image" style="background-image:url(rr.webp);"></div>
+        <p><a href="./boxes/box1.html">See More</a></p>
+        </div>
+      </div>
+      <div class="box1 box">
+        <div class="box-content">
+           <h2>Clothes</h2>
+        <div class="box1-image" style="background-image:url(cc.jfif);"></div>
+        <p><a href="./boxes/box2.html">See More</a></p>
+        </div>
+      </div>
+      <div class="box1 box">
+        <div class="box-content">
+           <h2>Home Decore</h2>
+        <div class="box1-image" style="background-image:url(pp.jpg);"></div>
+        <p><a href="boxes/box3.html">See More</a></p>
+        </div>
+      </div>
+      <div class="box1 box">
+        <div class="box-content">
+           <h2>Electronics</h2>
+        <div class="box1-image" style="background-image:url(pc.jpg);"></div>
+        <p><a href="./boxes/box4.html">See More</a></p>
+        </div>
+      </div>
+      <div class="box1 box">
+        <div class="box-content">
+           <h2>Accessories</h2>
+        <div class="box1-image" style="background-image:url(up.jpg);"></div>
+        <p><a href="./boxes/box5.html">See More</a></p>
+        </div>
+      </div>
+      <div class="box1 box">
+        <div class="box-content">
+           <h2>Toys</h2>
+        <div class="box1-image" style="background-image:url(toys.jpg);"></div>
+        <p><a href="./boxes/box6.html">See More</a></p>
+        </div>
+      </div>
+      <div class="box3 box">
+        <div class="box-content">
+          <h2>Bags & Luggages</h2>
+        <div class="box1-image" style="background-image:url(nn.jpg);"></div>
+        <p><a href="./boxes/box7.html">See More</a></p>
+        </div>
+      </div>
+      <div class="box3 box">
+        <div class="box-content">
+          <h2>Automobiles</h2>
+        <div class="box1-image" style="background-image:url(bb.jpg);"></div>
+        <p><a href="./boxes/box8.html">See More</a></p>
+        </div>
+      </div>
+      
+      
+  </div>
     </div>
     
 

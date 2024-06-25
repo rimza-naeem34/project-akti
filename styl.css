@@ -6,7 +6,7 @@
 
 .navbar{
     height: 90px;
-    background-color: #f5480e;
+    background-color: grey;
     color: white;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@
 
 }
 .logo{
-    background-image: url("daraz-logo.png");
+    background-image: url("google.png");
     background-size: cover;
     height: 48px;
     width: 100%;
@@ -81,7 +81,8 @@
 .nav-signup{
     display: flex;
     color: white;
-    background-color: #f5480e;
+    background-color: gray;
+    text-decoration: wavy;
 }
 .user-icon{
     font-size: 1.2rem;
@@ -95,8 +96,9 @@
     align-items: center;
     margin-left: 3px;
     color: white;
+    text-decoration: wavy;
 
-    background-color: #f5480e;
+    background-color: gray;
 }
 .nav-line{
     margin-left: 10px;
@@ -125,8 +127,8 @@
     font-size: 1.8rem;
     display: flex;
     align-items: center;
-    color: white !important;
-    text-decoration: none !important;
+    color: white ;
+    text-decoration: wavy;
 }
 /**line2 box1*/
 .pannel{
@@ -134,7 +136,7 @@
     height: 18px;
     width: 100%;
     
-    background-color:#f5480e ;
+    background-color:gray ;
     display: flex;
     margin-right: 3px;
     color: white;
@@ -142,8 +144,12 @@
     justify-content: space-evenly;
     font-size: 0.8rem;
 }
+.menu-icon{
+    margin-right: 3px;
+}
 .pannel-all{
     margin-right: 5px;
+    display: flex;
 }
 
 .pannel.ops {
@@ -153,7 +159,7 @@
 }
 .savemore-logo{
     margin-left: 40%;
-    background-image: url(daraz-logo.png)
+    background-image: url(fdd.png)
     background-size: 20px;
 ;
     
@@ -161,15 +167,15 @@
 }
 /**main section*/
 .main-section{
-    background-image: url(toys\ main.jpg);
+    background-image: url(beauty.jpg);
     background-size: cover;
-    height: 344px;
+    height: 260px;
     display: flex;
 }
 .headline{
     display: flex;
     justify-content: space-evenly;
-    background-color: #f5480e;
+    background-color: gray;
     color: white;
     height: 30px;
     align-items: center;
@@ -179,7 +185,7 @@
 }
 .pricelogo{
     margin-right: 3px;
-    color: gray;
+    color: #f5480e;
     font-size: 1.4rem;
 }
 .payement{
@@ -228,82 +234,36 @@
     font-size: 1.4rem;
     color: pink;
 }
-.menu-icon {
-    display: inline-block;
-    width: 30px;
-    height: 15px;
-    background-color:#f5480e;
-    position: relative;
-    cursor: pointer;
+/**shop section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(245, 200, 208);
+}
+.box{
+    border: 2px ;
+    justify-content: space-evenly;
+    height: 350px;
+    width: 23%;
+    background-color: white;
+    padding: 20 0 15;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box1-image{
+    height:300px;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
-
-/* Styling for the dropdown menu */
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 40px; /* Positioning the dropdown below the icon */
-    left: 0;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    padding: 10px;
-    width: 150px;
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
-
-/* Show the dropdown menu when hovering over the menu icon */
-.menu-icon:hover .dropdown-menu {
-    display: block;
-    background-color: white;
-    font-size: 1rem;
-    color: #f5480e;
-    height: 300px;
-    width: 300px;
-    margin-top: %;
+.box-content p{
+    color: #007185;
 }
-
-/* Basic styling for list items */
-.dropdown-menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.dropdown-menu li {
-    padding: 8px;
-    border-bottom: 1px solid #ddd;
-}
-
-.dropdown-menu li:last-child {
-    border-bottom: none;
-}
-
-.dropdown-menu li:hover {
-    background-color: #f0f0f0;
-}
-</style>
-<title>Menu Dropdown</title>
-</head>
-<body>
-<div class="menu-icon">
-<!-- The dropdown menu -->
-<div class="dropdown-menu">
-    <ul>
-        <li>Option 1</li>
-        <li>Option 2</li>
-        <li>Option 3</li>
-        <li>Option 4</li>
-    </ul>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
 
 
