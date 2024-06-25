@@ -265,5 +265,50 @@
 .box-content p{
     color: #007185;
 }
+/**foot-pannel*/
 
+footer{
+    margin-top: 15px;
+}
+.foot-pannel1{
+    background-color: #37475a;
+    color: white;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
 
+}
+.foot-pannel2{
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul div {
+
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-pannel3 <ul>
+<p>Get to Know Us</p>
+<div>Careers</div>
+<div>Blog</div>
+<div>About Us</div>
+<div>Investor Relations</div>
+<div>Googl Devices</div>
+<div>Googl Science</div>
+
+</ul>{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 100px;
+}
