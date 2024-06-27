@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Googl</title>
+    <link rel="stylesheet" href="../styl.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <header>
+      <div class="navbar">
+        <div class="nav-logo border">
+          <div ><a href="../index.html"> <div class="logo"></div> </a></div>
+        </div>
+    
+        <div class="nav-address border">
+          <p class="add-first">Deliver to</p>
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add-sec">Pakistan</p>
+          </div>
+        </div>
+        <div class="nav-search">
+          <select class="search-select">
+            <option>All</option>
+          </select>
+          <input placeholder="Search in Googl" class="search-input" />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+         </div>
+          <div class="user-icon">
+          <i class="fa-regular fa-user"></i>
+          <div>
+            <a href="./login.html" class="nav-login" > 
+               <div > 
+                     Login
+               </div>
+            </a> </div>
+          <div>
+            <p class="nav-line">|</p>
+          </div>
+        </div>
+        <div>
+          <a href="../signup/signup.html" class="nav-signup">
+          <div>
+          SignUp
+          </div>
+          </a>
+        </div>
+        <div class="nav-langicon">
+          <i class="fa-solid fa-globe"></i>
+          <div class="nav-lang">ENG</div>
+        </div>
+        <div>
+          <a href="../cart/cart.html" class="nav-cart">
+            <div>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+  </header>
+  <div class="done">
+    <h1>NUMBER GUESSING GAME</h1>
+    
+  </div>
+  <div class="done2">
+    <h2>PLAY AND WIN 25% DISCOUNT</h2>
+  </div>
+  
+    <div class="game-container">
+      <h1>Guess The Number And Win !</h1>
+      <p>You have <span id="attempts">3</span> attempts to guess the correct number.</p>
+      <input type="number" id="guessInput" placeholder="Enter your guess">
+      <button onclick="checkGuess()">Guess</button>
+      <p id="message"></p>
+  </div>
+  <script src="game.js"></script>
+  
+
+</body>
+</html>
