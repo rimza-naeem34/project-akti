@@ -5,6 +5,6 @@ console.log(promise);
 
 const getFacts = () => {
     console.log("Getting data....")
-    let response = await fetch(URL);
+    let response = awaitfetch(URL);
     console.log(response);
 }
